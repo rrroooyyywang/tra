@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-10-23 14:26:14 by Eclipse SUMO netedit Version 1.18.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="e2n" begin="0.00" departSpeed="10.00" from="-E6" to="-E9" end="3600.00" vehsPerHour="1800.00"/>
+    <flow id="e2s" begin="0.00" departSpeed="10.00" from="-E6" to="E7" end="3600.00" vehsPerHour="1800.00"/>
+    <flow id="e2w" begin="0.00" departSpeed="10.00" from="-E6" to="-E8" end="3600.00" vehsPerHour="1800.00"/>
+    <flow id="n2e" begin="0.00" departSpeed="10.00" from="E9" to="E6" end="3600.00" vehsPerHour="1800.00"/>
+    <flow id="n2s" begin="0.00" departSpeed="10.00" from="E9" to="E7" end="3600.00" vehsPerHour="1800.00"/>
+    <flow id="n2w" begin="0.00" departSpeed="10.00" from="E9" to="-E8" end="3600.00" vehsPerHour="1800.00"/>
+    <flow id="s2e" begin="0.00" departSpeed="10.00" from="-E7" to="E6" end="3600.00" vehsPerHour="1800.00"/>
+    <flow id="s2n" begin="0.00" departSpeed="10.00" from="-E7" to="-E9" end="3600.00" vehsPerHour="1800.00"/>
+    <flow id="s2w" begin="0.00" departSpeed="10.00" from="-E7" to="-E8" end="3600.00" vehsPerHour="1800.00"/>
+    <flow id="w2e" begin="0.00" departSpeed="10.00" from="E8" to="E6" end="3600.00" vehsPerHour="1800.00"/>
+    <flow id="w2n" begin="0.00" departSpeed="10.00" from="E8" to="-E9" end="3600.00" vehsPerHour="1800.00"/>
+    <flow id="w2s" begin="0.00" departSpeed="10.00" from="E8" to="E7" end="3600.00" vehsPerHour="1800.00"/>
+</routes>
