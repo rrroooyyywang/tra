@@ -12,7 +12,7 @@ class SUMOEnv():
         return True
         
 
-    def step()
+    def step():
 
         step = 0
         while step < 3600:
