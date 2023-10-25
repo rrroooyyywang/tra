@@ -6,8 +6,8 @@ import sys
 class SUMOEnv():
     
     def runSUMO():
-        #traci.start(["sumo-gui", "-b","0", "-e","3600", "-n", "./sumo/Road.net.xml","-r", "./sumo/Route.rou.xml"], numRetries=12000,verbose = True)
-        traci.start(["sumo-gui", "-c","./sumo/RunSimulator.sumocfg"], numRetries=12000,verbose = True)
+        traci.start(["sumo-gui", "-b","0", "-e","3600", "-n", "./sumo/Road.net.xml","-r", "./sumo/Route.rou.xml"], numRetries=12000,verbose = True)
+        #traci.start(["sumo-gui", "-c","./sumo/RunSimulator.sumocfg"], numRetries=12000,verbose = True)
 
         return True
         
